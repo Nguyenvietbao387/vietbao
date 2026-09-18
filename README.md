@@ -12,11 +12,9 @@ project/
 ├── contact.html        # Thông tin liên hệ
 ├── css/
 │   └── style.css       # Toàn bộ định dạng giao diện
-├── images/              # Hình minh họa (SVG, tự vẽ — không cần ghi nguồn)
+├── images/              # Hình minh họa 
 └── README.md
 ```
 
-Cả 4 trang đều dùng chung `css/style.css`, có tiêu đề (header + thanh điều hướng), nội dung chính và chân trang (footer) thống nhất. Mọi đường dẫn CSS, hình ảnh và liên kết nội bộ đều là **đường dẫn tương đối**.
 
-## 
 
