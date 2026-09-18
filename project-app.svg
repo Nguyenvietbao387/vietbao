@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Minh họa dự án ứng dụng quản lý chi tiêu">
+  <rect width="400" height="240" fill="#edeae2"/>
+  <rect x="140" y="30" width="120" height="190" rx="14" fill="#f7f6f2" stroke="#20201c" stroke-width="3"/>
+  <rect x="152" y="52" width="96" height="130" rx="3" fill="#e4efec"/>
+  <circle cx="200" cy="200" r="8" fill="#20201c"/>
+  <polyline points="164,150 182,120 200,138 220,100 236,116" fill="none" stroke="#1f6f63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="164" y="64" width="72" height="10" rx="2" fill="#20201c"/>
+  <rect x="164" y="160" width="30" height="14" rx="2" fill="#c97b3d"/>
+  <rect x="200" y="160" width="36" height="14" rx="2" fill="#5b584f" opacity="0.5"/>
+</svg>

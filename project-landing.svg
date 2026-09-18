@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Minh họa dự án landing page quán cà phê">
+  <rect width="400" height="240" fill="#edeae2"/>
+  <rect x="40" y="40" width="320" height="160" rx="3" fill="#f7f6f2" stroke="#dcd8cc" stroke-width="2"/>
+  <circle cx="200" cy="95" r="30" fill="#c97b3d"/>
+  <path d="M182 108c0 14 8 22 18 22s18-8 18-22" fill="none" stroke="#20201c" stroke-width="3"/>
+  <rect x="150" y="150" width="100" height="10" rx="2" fill="#20201c"/>
+  <rect x="120" y="168" width="160" height="8" rx="2" fill="#5b584f" opacity="0.5"/>
+  <rect x="160" y="188" width="80" height="16" rx="8" fill="#1f6f63"/>
+</svg>

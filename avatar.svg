@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Minh họa chân dung">
+  <rect width="400" height="480" fill="#e4efec"/>
+  <circle cx="200" cy="180" r="230" fill="#1f6f63" opacity="0.08"/>
+  <g transform="translate(0,10)">
+    <path d="M200 90c-52 0-92 42-92 100 0 46 24 82 56 100v40c0 8 6 14 14 14h44c8 0 14-6 14-14v-40c32-18 56-54 56-100 0-58-40-100-92-100z" fill="#f7f6f2" stroke="#20201c" stroke-width="4"/>
+    <path d="M118 176c0-58 36-104 82-104s82 46 82 104" fill="none" stroke="#20201c" stroke-width="4"/>
+    <path d="M112 172c-14 4-22 20-16 36 6 14 20 20 32 16" fill="#f7f6f2" stroke="#20201c" stroke-width="4"/>
+    <path d="M288 172c14 4 22 20 16 36-6 14-20 20-32 16" fill="#f7f6f2" stroke="#20201c" stroke-width="4"/>
+    <circle cx="168" cy="188" r="6" fill="#20201c"/>
+    <circle cx="232" cy="188" r="6" fill="#20201c"/>
+    <path d="M180 224c8 10 32 10 40 0" fill="none" stroke="#20201c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150 340c14-30 48-46 50-46s36 16 50 46c24 0 66 14 78 56v70H72v-70c12-42 54-56 78-56z" fill="#c97b3d"/>
+    <path d="M150 340c14-30 48-46 50-46s36 16 50 46" fill="none" stroke="#20201c" stroke-width="4"/>
+  </g>
+</svg>
