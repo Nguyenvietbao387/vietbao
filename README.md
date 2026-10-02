@@ -1,5 +1,6 @@
 # Website cá nhân — Nguyễn Viết Bảo
-**Bean & Bloom Coffee** là dự án website tĩnh được xây dựng bằng **HTML5** và **CSS3**. Website dùng để giới thiệu chi tiết về quán cà phê Bean & Bloom (sản phẩm, dịch vụ, không gian, bài viết) đồng thời tích hợp trang thông tin cá nhân của **Nguyễn Việt Bảo**. 
+**Bean & Bloom Coffee** là dự án website tĩnh được xây dựng bằng **HTML5** và **CSS3**. Website dùng để giới thiệu chi tiết về quán cà phê Bean & Bloom (sản phẩm, dịch vụ, không gian, bài viết) đồng thời tích hợp trang thông tin cá nhân của **Nguyễn Viết Bảo**. 
+```text
 project/
 ├── index.html           Trang chủ Bean & Bloom Coffee
 ├── about.html           Giới thiệu quán và giá trị cốt lõi
@@ -15,6 +16,6 @@ project/
 │   └── pages.css        Định dạng riêng cho từng trang nội dung
 ├── images/              Lưu trữ hình ảnh minh họa cho dự án
 └── README.md            Tài liệu giới thiệu dự án
-
+```
 
 
