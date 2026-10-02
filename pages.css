@@ -1,0 +1,52 @@
+/* pages.css - giao diện cho services, gallery, blog, details (tiền tố nb- để không xung đột style.css gốc) */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",Arial,sans-serif;color:#44403c;line-height:1.6;overflow-x:hidden;background:#fff}
+img{max-width:100%;height:auto;display:block}a{color:#b45309;text-decoration:none}
+h1,h2,h3,h4{color:#2b1d14;line-height:1.25}h2{font-size:1.8rem;margin-bottom:1.2rem}p{margin-bottom:.8rem}
+.nb-wrap{width:min(1100px,92%);margin:0 auto}
+.nb-header{background:#2b1d14;position:sticky;top:0;z-index:10}
+.nb-bar{display:flex;align-items:center;justify-content:space-between;padding:.8rem 0;position:relative}
+.nb-logo{color:#fff;font-size:1.5rem;font-weight:700}.nb-logo span{color:#f5b971}
+nav ul{display:flex;flex-wrap:wrap;gap:.3rem;list-style:none}
+nav a{display:block;color:#e7d5c3;padding:.45rem .7rem;border-radius:6px;font-size:.92rem}
+nav a:hover,nav a.active{background:#b45309;color:#fff}
+#nb-toggle{display:none}.nb-burger{display:none;color:#fff;font-size:1.8rem;cursor:pointer}
+.nb-banner{background:linear-gradient(135deg,#4a2c17,#b45309);color:#fff;text-align:center;padding:3.2rem 4%}
+.nb-banner h1{color:#fff;font-size:2.3rem}.nb-banner p{margin:.5rem 0 0;opacity:.9}
+.nb-sec{padding:3rem 0;scroll-margin-top:70px}.nb-alt{background:#fdf6ec}
+.nb-grid{display:grid;gap:1.5rem}.nb-c3{grid-template-columns:repeat(3,1fr)}.nb-c2{grid-template-columns:repeat(2,1fr)}
+.nb-card,.nb-box,.nb-fig{background:#fff;border-radius:12px;box-shadow:0 2px 10px #0001;overflow:hidden;transition:.25s}
+.nb-box{padding:1.3rem;display:block;color:inherit}.nb-box p{margin:0}.nb-card:hover,.nb-fig:hover,a.nb-box:hover{transform:translateY(-5px);box-shadow:0 8px 22px #0002}
+.nb-card img,.nb-fig img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.nb-body{padding:1.1rem}.nb-body h3{margin-bottom:.4rem}.nb-fig{margin:0}.nb-fig figcaption{padding:.6rem;text-align:center;font-size:.92rem}
+.nb-btn{display:inline-block;background:#b45309;color:#fff;padding:.55rem 1.2rem;border-radius:8px;transition:.2s}
+.nb-btn:hover{background:#92400e}.nb-ghost{background:transparent;border:2px solid #b45309;color:#b45309}.nb-ghost:hover{color:#fff}
+.nb-note{margin-top:1.2rem;font-style:italic;font-size:.9rem}
+.nb-narrow{max-width:800px}.nb-hero-img{width:100%;border-radius:12px;margin-bottom:1.5rem}
+article h3{margin:1.2rem 0 .5rem}ul{padding-left:1.3rem;margin-bottom:1rem}
+.nb-footer{background:#2b1d14;color:#e7d5c3;padding:2.5rem 0 1rem}.nb-footer h4{color:#fff;margin-bottom:.6rem}.nb-footer a{color:#f5b971}
+.nb-copy{text-align:center;margin-top:1.5rem;padding:1rem 4% 0;border-top:1px solid #4a3626;font-size:.85rem}
+@media(max-width:992px){.nb-c3{grid-template-columns:repeat(2,1fr)}nav a{padding:.4rem .5rem;font-size:.85rem}}
+@media(max-width:768px){
+.nb-burger{display:block}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:#2b1d14;padding:.5rem 0}
+#nb-toggle:checked~nav{display:block}nav ul{flex-direction:column}
+.nb-c3,.nb-c2{grid-template-columns:1fr}.nb-banner h1{font-size:1.7rem}h2{font-size:1.5rem}}
+/* details: mục lục + bài viết */
+.nb-toc{display:block;background:#fff;padding:1rem 1.2rem;border-radius:10px;box-shadow:0 2px 10px #0001;font-weight:600}
+.nb-toc:hover{background:#b45309;color:#fff}
+.nb-art{scroll-margin-top:80px;padding-bottom:1rem}
+.nb-narrow hr{border:0;border-top:1px solid #ead9c6;margin:2.5rem 0}
+.nb-narrow .nb-grid{margin:1rem 0}
+html{scroll-behavior:smooth}
+/* hero, 2 cột, form */
+.nb-hero{background:linear-gradient(135deg,#2b1d14,#78350f);color:#fff;padding:4rem 0}
+.nb-hero h1{color:#fff;font-size:2.5rem;margin-bottom:1rem}.nb-hero img{border-radius:16px;box-shadow:0 10px 30px #0006}
+.nb-two{display:grid;grid-template-columns:1.1fr 1fr;gap:2.5rem;align-items:center}
+.nb-ghost-w{background:transparent;border:2px solid #fff}
+.nb-round{border-radius:16px;width:100%}.nb-center{text-align:center;margin-top:1.5rem}
+label{display:block;font-weight:600;margin-bottom:.9rem}
+input,textarea{width:100%;padding:.6rem;margin-top:.3rem;border:1px solid #d6c3ad;border-radius:6px;font:inherit}
+button.nb-btn{border:0;cursor:pointer;font-size:1rem}
+@media(max-width:768px){.nb-two{grid-template-columns:1fr}.nb-hero h1{font-size:1.7rem}.nb-hero{padding:2.5rem 0;text-align:center}}
